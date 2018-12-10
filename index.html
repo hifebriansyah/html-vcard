@@ -5,12 +5,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta name="description" content="Hi I'm Febriansyah and I love programming so much!">
+    <meta property="og:description" content="Hi I'm Febriansyah and I love programming so much!">
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="https://hifebriansyah.com/static/favicons/android-chrome-256x256.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Enthusiast Programmer - Indonesia | HiFebriansyah" />
 
 	<!-- Title -->
     <title>Enthusiast Programmer - Indonesia | HiFebriansyah</title>
 	
 	<!-- GA JS -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111686475-1"></script>
+	<script async src="//www.googletagmanager.com/gtag/js?id=UA-111686475-1"></script>
 	
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -20,34 +24,44 @@
 		gtag('config', 'UA-111686475-1');
 	</script>
 
+	<!-- Service Worker -->
+	<script>
+		if('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('sw.js').then(function() {
+				console.log('Service Worker Registered');
+			});
+		}
+    </script>
+
     <!-- Styling -->
 	<link rel="stylesheet" href="static/libs/font-awesome/font-awesome.min.css">
 	<link rel="stylesheet" href="static/styles/vcard.css">
 
 	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
-	<link rel="manifest" href="/static/favicons/manifest.json">
-	<link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="/static/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/favicons/favicon-16x16.png">
+	<link rel="manifest" href="static/favicons/manifest.json">
+	<link rel="mask-icon" href="static/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="static/favicons/favicon.ico">
 	<meta name="application-name" content="hifebriansyah">
-	<meta name="msapplication-config" content="/static/favicons/browserconfig.xml">
+	<meta name="msapplication-config" content="https://hifebriansyah.com/static/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#404040">
 
 	<!-- AMP -->
-	<link rel="amphtml" href="http://hifebriansyah.com/index.amp.html">
+	<link rel="amphtml" href="//hifebriansyah.com/index.amp.html">
 
 	<!-- Lang -->
-	<link rel="alternate" href="http://hifebriansyah.com" hreflang="en-us" />
+	<link rel="alternate" href="//hifebriansyah.com" hreflang="en-us" />
 
 	<!-- Chrome App -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
     <meta name="mobile-web-app-capable" content="yes" />
 
 	<!-- Safari App -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="hifebriansyah">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 <body>
 	<div class="container">
@@ -65,9 +79,9 @@
 						&nbsp;
 					</div>
 					<div class="icons">
-						<a target="_blank" href="https://www.github.com/hifebriansyah" class="github-alt" title="github"><i class="fa fa-github-alt"></i></a>
-						<a target="_blank" href="https://www.linkedin.com/in/muhammad-febriansyah" class="linkedin" title="linkedin"><i class="fa fa-linkedin"></i></a>
-						<a target="_blank" href="https://www.youtube.com/channel/UCaW6-tkir5lUNJglD3Y50-Q" class="youtube-play" title="youtube"><i class="fa fa-youtube-play"></i></a>
+						<a target="_blank" href="//www.github.com/hifebriansyah" class="github-alt" title="github"><i class="fa fa-github-alt"></i></a>
+						<a target="_blank" href="//www.linkedin.com/in/muhammad-febriansyah" class="linkedin" title="linkedin"><i class="fa fa-linkedin"></i></a>
+						<a target="_blank" href="//www.youtube.com/channel/UCaW6-tkir5lUNJglD3Y50-Q" class="youtube-play" title="youtube"><i class="fa fa-youtube-play"></i></a>
 					</div>
 				</div>
 			</div>

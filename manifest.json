@@ -2,21 +2,20 @@
    "background_color":"#f0f0f0",
    "description":"Hi I'm Febriansyah and I love programming so much!",
    "display":"standalone",
+   "short_name":"febri",
    "name":"hifebriansyah",
-   "short_name":"hifebriansyah",
    "start_url":"/",
    "theme_color":"#404040",
-   "scope":"/"
    "icons":[  
       {  
-         "src":"https://hifebriansyah.com/static/favicons/android-chrome-192x192.png",
+         "src":"//hifebriansyah.com/static/favicons/android-chrome-192x192.png",
          "sizes":"192x192",
          "type":"image/png"
       },
       {  
-         "src":"https://hifebriansyah.com/static/favicons/android-chrome-256x256.png",
+         "src":"//hifebriansyah.com/static/favicons/android-chrome-256x256.png",
          "sizes":"512x512",
          "type":"image/png"
       }
-   ],
+   ]
 }
